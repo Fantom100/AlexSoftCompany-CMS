@@ -13,3 +13,4 @@ include_once 'class/Captcha.class.php';
 $captcha = new Captcha(); //Инициализация класса капчи
 
 echo $captcha->generate(); //запуск итогового изображения
+//Запуск из кприватного класса echo $captcha::generate();
